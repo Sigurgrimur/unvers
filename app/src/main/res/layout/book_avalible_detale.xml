@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="7dp"
+    android:background="@drawable/background">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="500sp">
+        <ImageView android:id="@+id/imageView1" 
+        android:src="@drawable/icon" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"></ImageView>
+        
+        <TextView android:layout_toRightOf="@id/imageView1" android:id="@+id/item_title" android:textAppearance="?android:attr/textAppearanceMedium" android:padding="2dp" android:text="TextView" android:textSize="20dp" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:textStyle="bold" android:singleLine="true" android:layout_width="wrap_content"></TextView>
+        <TextView android:layout_toRightOf="@id/imageView1" android:id="@+id/item_author" android:layout_below="@+id/item_title" android:textAppearance="?android:attr/textAppearanceMedium" android:padding="2dp" android:text="TextView" android:textSize="15dp" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+        
+        <TextView android:layout_below="@+id/imageView1" 
+        android:text="TextView" 
+        android:layout_height="wrap_content" 
+		android:padding="2dp" 
+		android:layout_width="wrap_content" 
+		android:textSize="13dp" 
+		android:id="@+id/item_prise" 
+		android:layout_marginTop="3sp"></TextView>
+        
+        <TextView android:layout_marginLeft="30sp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="Comment" 
+        android:id="@+id/item_comment" 
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" android:layout_alignTop="@+id/item_prise" android:layout_toRightOf="@+id/item_prise"></TextView>
+		
+		 <TextView android:layout_below="@+id/item_prise"
+		 android:text="TextView" 
+        android:layout_height="wrap_content" 
+		android:padding="2dp" 
+		android:layout_width="wrap_content" 
+		android:textSize="13dp" 
+		android:id="@+id/item_edition" 
+		android:layout_marginTop="3sp"></TextView>
+		
+		<TextView android:layout_below="@+id/item_edition"
+        android:text="TextView" 
+        android:layout_height="wrap_content" 
+		android:padding="2dp" 
+		android:layout_width="wrap_content" 
+		android:textSize="13dp" 
+		android:id="@+id/item_year" 
+		android:layout_marginTop="3sp"></TextView>
+		
+		
+		
+		<TextView android:layout_below="@+id/item_year"
+        android:text="TextView" 
+        android:layout_height="wrap_content" 
+		android:padding="2dp" 
+		android:layout_width="wrap_content" 
+		android:textSize="13dp" 
+		android:id="@+id/item_isbn" 
+		android:layout_marginTop="3sp" android:layout_marginRight="20sp"></TextView>
+		<Button android:id="@+id/button_email" android:layout_height="wrap_content" android:textSize="20sp" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_below="@+id/item_comment" android:background="@drawable/emailbutton"></Button>
+    </RelativeLayout>
+</LinearLayout>

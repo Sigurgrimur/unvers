@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.universe"
+      android:versionCode="2"
+      android:versionName="1.1">
+      <uses-permission android:name="android.permission.INTERNET"></uses-permission><uses-sdk android:minSdkVersion="4" />
+    
+    
+
+    	<application android:label="@string/app_name" android:icon="@drawable/logo">
+        
+        <activity android:name=".UNIVerss"
+                  android:label="@string/app_name">
+                  
+        <intent-filter>
+        <action android:name="com.example.universe.splasscreen.UNIVerss" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        
+        
+        <activity android:name="com.example.universe.collective.UniCast"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+        <activity android:name="com.example.universe.collective.UniCollective"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+       <activity android:name="com.example.universe.collective.UniCollective_detale"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+        <activity android:name="com.example.universe.collective.My_UniCast"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+        <activity android:name="com.example.universe.bookplanet.Avalible"
+                 android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+       <activity android:name="com.example.universe.bookplanet.Avalible_detale"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+       
+         <activity android:name="com.example.universe.bookplanet.Trade"
+                  android:label="@string/app_name">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+         </activity>
+         
+         <activity android:name=".A_My_Galaxy"
+                  android:label="@string/app_name">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         </activity>
+        
+         <activity android:name="com.example.universe.collective.B_thoughts"
+                  android:label="@string/app_name">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+         </activity>
+        
+         <activity android:name=".B_tdemodata"
+                  android:label="@string/app_name">
+         <intent-filter>
+         <action android:name="android.intent.action.MAIN" />
+         <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+         </activity>
+
+		<activity android:name="com.example.universe.studentworld.Events"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="com.example.universe.ideaunivers.Idea_Galaxy"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Dialog"
+                  >
+                  
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="com.example.universe.ideaunivers.IdeaCast"
+                   android:theme="@android:style/Theme.Dialog"
+                   android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.universe.ideaunivers.My_IdeaCast"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Dialog">
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.universe.resturant.ToDay"
+        			android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.universe.resturant.Offers"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="com.android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        <activity android:name="com.example.universe.studentworld.PeerSupport"
+      			  android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+        
+        
+    	</application>
+</manifest>

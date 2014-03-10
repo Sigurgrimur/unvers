@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:background="@drawable/background">
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout4" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:text="Send" android:layout_alignParentRight="true" android:id="@+id/buttonsend"></Button>
+        <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:src="@drawable/takki"></ImageView>
+    </RelativeLayout>
+
+<LinearLayout android:id="@+id/LinearLayout02"
+android:layout_width="fill_parent" android:layout_height="wrap_content">
+<ViewFlipper android:id="@+id/ViewFlipper01"
+android:layout_width="fill_parent" android:layout_height="wrap_content">
+<!--adding views to ViewFlipper-->
+
+<LinearLayout android:id="@+id/linearLayout2" 
+android:background="@android:drawable/list_selector_background"  
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:orientation="vertical">
+              <RelativeLayout android:id="@+id/relativeLayout1" 
+              android:background="@android:drawable/list_selector_background"  
+              android:clickable="true" 
+              android:layout_width="fill_parent" 
+              android:layout_height="60sp">
+                  <TextView android:layout_height="wrap_content" 
+                   android:minWidth="100sp" 
+                   android:layout_width="wrap_content"
+                    android:minHeight="20sp" 
+                    android:text="Your Name" 
+                    android:textSize="20sp" 
+                    android:layout_alignParentBottom="true" android:id="@+id/username"></TextView>
+                  <TextView android:id="@+id/textView1" 
+                  android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content"
+                   android:textSize="30sp" 
+                   android:layout_alignParentTop="true" android:text="Name"></TextView>
+                  <TextView android:id="@+id/textView22" 
+                  android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content" 
+                  android:layout_alignParentRight="true" 
+                  android:layout_alignParentTop="true" 
+                  android:layout_marginRight="10sp" 
+                  android:text="Required" 
+                  android:textColor="#CC0033" 
+                  android:textSize="15sp" 
+                  android:textStyle="bold"></TextView>
+                  
+                  <View android:id="@+id/view1" 
+                  android:layout_width="fill_parent" 
+                  android:background="@drawable/horizontal_separation_line" 
+                  android:layout_height="1.0dip"></View>
+              </RelativeLayout>
+              
+              <RelativeLayout android:id="@+id/relativeLayout2" 
+              android:background="@android:drawable/list_selector_background"  
+              android:clickable="true" 
+              android:layout_width="fill_parent" 
+              android:layout_height="60sp">
+                  <TextView android:layout_height="wrap_content" 
+                  android:minWidth="100sp" 
+                  android:layout_width="wrap_content" 
+                  android:minHeight="20sp" 
+                  android:text="Enter here" 
+                  android:textSize="20sp" 
+                  android:layout_alignParentBottom="true" android:id="@+id/postname"></TextView>
+                  <TextView android:id="@+id/textView1" 
+                  android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content" 
+                  android:textSize="30sp" 
+                  android:layout_alignParentTop="true" android:text="Title"></TextView>
+                  <TextView android:id="@+id/textView22" 
+                  android:layout_height="wrap_content" 
+                  android:layout_width="wrap_content" 
+                  android:layout_alignParentRight="true" 
+                  android:layout_alignParentTop="true" 
+                  android:layout_marginRight="10sp" 
+                  android:text="Required" 
+                  android:textColor="#CC0033" 
+                  android:textSize="15sp" 
+                  android:textStyle="bold"></TextView>
+                  
+                  <View android:id="@+id/view1" android:layout_width="fill_parent" android:background="@drawable/horizontal_separation_line" android:layout_height="1.0dip"></View>
+              </RelativeLayout>
+              
+           <RelativeLayout android:id="@+id/relativeLayout3" 
+           android:clickable="true" 
+           android:background="@android:drawable/list_selector_background" 
+           android:layout_width="fill_parent" 
+           android:layout_height="60sp">
+                  <TextView android:layout_height="wrap_content" 
+                  android:minWidth="100sp" 
+                  android:layout_width="fill_parent" 
+                  android:minHeight="20sp" 
+                  android:text="Enter here" 
+                  android:textSize="20sp" 
+                  android:layout_alignParentBottom="true" android:id="@+id/post"></TextView>
+                  <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30sp" android:layout_alignParentTop="true" android:text="Your Thought"></TextView>
+                  <TextView android:id="@+id/textView22" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_marginRight="10sp" android:text="Required" android:textColor="#CC0033" android:textSize="15sp" android:textStyle="bold"></TextView>
+                  
+                  <View android:id="@+id/view1" android:layout_width="fill_parent" android:background="@drawable/horizontal_separation_line" android:layout_height="1.0dip"></View>
+              </RelativeLayout>
+          </LinearLayout>
+          
+<LinearLayout android:id="@+id/LinearLayout03"
+android:layout_width="fill_parent" 
+android:orientation="vertical"
+android:layout_height="wrap_content">
+ <TextView android:id="@+id/textView1" 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:text="Name" 
+ android:textSize="30sp" 
+ android:layout_alignParentTop="true"></TextView>
+
+<EditText android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Svakalegt" android:id="@+id/EditText01"></EditText>
+<Button android:id="@+id/Button01" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Ok"></Button>
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout03"
+android:layout_width="fill_parent" 
+android:orientation="vertical"
+android:layout_height="wrap_content">
+ <TextView android:id="@+id/textView1" 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:text="Title" 
+ android:textSize="30sp" 
+ android:layout_alignParentTop="true"></TextView>
+<EditText android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Svakalegt" android:id="@+id/EditText02"></EditText>
+<Button android:id="@+id/Button02" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Ok"></Button>
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout03"
+android:layout_width="fill_parent" 
+android:orientation="vertical"
+android:layout_height="wrap_content">
+ <TextView android:id="@+id/textView1" 
+ android:layout_height="wrap_content" 
+ android:layout_width="wrap_content" 
+ android:text="Your Thought" 
+ android:textSize="30sp" 
+ android:layout_alignParentTop="true"></TextView>
+<EditText android:layout_width="fill_parent"
+android:layout_height="wrap_content" 
+android:text="Svakalegt" android:id="@+id/EditText03"></EditText>
+<Button android:id="@+id/Button03" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Ok"></Button>
+</LinearLayout>
+
+</ViewFlipper>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, UNIVerss!</string>
+    <string name="app_name">UNIVers</string>
+     <string name="username">User</string>
+  	<string name="message">Message</string>
+	  <string name="send">Send</string>
+	  <string name="User_id"></string>
+	  <string name="UserId">User Id</string>
+	  <string name="your_thought">Your Thought</string>
+	  <string name="State">State</string>
+	  <string name="TeacherWorld">Teacher World</string>
+	  <string name="StudentWorld">Student World</string>
+	  <string name="SduWorld">SDU World</string>
+	  <string name="MyGalaxy">My Galaxy</string>
+	  <string name="Offers">Offers</string>
+	  <string name="BookPlanet">Book Planet</string>
+	  <string name="FleeMarket">Flee Market</string>
+	  <string name="post">Post</string>
+	  <string name="Thoughts">Thoughts</string>
+	  <string name="Projects">Projects</string>
+	  <string name="Projectss">Projects</string>
+	  <string name="Resturant">Resturant at the End off the Galaxy</string>
+</resources>
